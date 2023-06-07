@@ -1,0 +1,42 @@
+.list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.time-text {
+  font-family: roboto;
+  font-size: 13px;
+}
+.content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+}
+.card-img {
+  height: 20px;
+  margin-right: 20px;
+}
+.title {
+  font-family: roboto;
+  font-size: 13px;
+}
+.domain-text {
+  font-family: roboto;
+  font-size: 13px;
+  color: #64748b;
+  margin-left: 10px;
+}
+.delete-container {
+  margin-left: auto;
+  align-self: center;
+  background-color: transparent;
+  border: none;
+}
+.delete {
+  height: 20px;
+  cursor: pointer;
+}
